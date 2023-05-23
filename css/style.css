@@ -1,0 +1,432 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	background: #373a3c;
+	padding: 11px 0;
+	border-bottom: 1px solid #777777;
+}
+.container-header {
+	display: flex;
+	align-items: center;
+}
+.menu {
+	flex: 1 1 auto;
+	display: flex;
+	justify-content: flex-end;
+}
+.menu-link {
+	font-size: 16px;
+	line-height: 16px;
+	color: rgba(255, 255, 255, 0.5);
+	text-decoration: none;
+	margin: 0 0 0 25px;
+	transition: all 0.5s ease 0s;
+}
+.menu-link:hover {
+	color: #ffffff;
+	text-shadow: 0 0 6px #ffffff;
+}
+.xbox-logo {
+	height: 30px;
+}
+
+.home-duty {
+	background: url(../images/CoD-WWII.jpg) no-repeat center/cover;
+}
+.duty-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	height: 100vh;
+}
+.duty-content {
+	min-width: 330px;
+	margin: auto 0 auto auto;
+}
+.duty-title {
+	font-weight: 400;
+	font-size: 36px;
+	color: #ffffff;
+}
+.duty-text {
+	font-size: 14px;
+	line-height: 30px;
+	color: #ffffff;
+	margin: 0 0 100px 0;
+}
+.duty-box {
+	display: flex;
+	gap: 10px;
+}
+.duty-button {
+	background: #8dd83d;
+	border-radius: 4px;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+.duty-button:hover {
+	background: #03d31b;
+	box-shadow: 0 0 15px 0 #03d31b;
+}
+
+.container {
+	max-width: 1500px;
+	margin: 0 auto;
+}
+.home-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.home {
+	background: url(../images/Star-Wars-Battlefront-II-combat.jpg) no-repeat
+		center / cover;
+}
+.hometittle {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 75px;
+	line-height: 94px;
+	color: #ffffff;
+}
+.hometext {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+	margin: 0 0 50px 0;
+}
+
+.pads {
+	padding: 114px 0 145px 0;
+	background: url(../images/rectangle.jpg) no-repeat center / cover;
+}
+
+.pads-tittle {
+	font-size: 48px;
+	line-height: 56px;
+	color: #ffffff;
+	margin-bottom: 10px;
+}
+.pads-text {
+	font-size: 24px;
+	line-height: 28px;
+	color: #ffffff;
+	margin-bottom: 37px;
+	max-width: 530px;
+}
+.pads-block {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+.pads-button {
+	background: #373a3c;
+	border-radius: 4px;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+.pads-button:hover {
+	background: #8dd83d;
+	box-shadow: 0 0 10px 0 #8dd83d;
+	/*При наведении курсора на кнопку,кнопка изменит цвет!*/
+}
+.link {
+	background: #373a3c;
+	border-radius: 4px;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 21px;
+	color: #ffffff;
+	padding: 10px 30px;
+	text-decoration: none;
+	transition: all 0.7s ease 0s;
+}
+
+.link:hover {
+	background: #8dd83d;
+	box-shadow: 0 0 10px 0 #8dd83d;
+	/*Когда команда box-shadow: ; задействована,кнопка будет подсвечиваться с разных сторон!
+	/*При наведении курсора на кнопку,кнопка изменит цвет!*/
+}
+
+.games {
+	padding: 60px 0 160px 0;
+	background: linear-gradient(gray, rgb(43, 41, 41));
+}
+.games-logo {
+	display: block;
+	margin: 0 auto;
+}
+.games-title {
+	text-align: center;
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 60px;
+	color: #ffffff;
+	margin: 16px 0 40px 0;
+}
+.games-subtitle {
+	display: block;
+	font-size: 36px;
+	line-height: 60px;
+	color: #ffffff;
+}
+.games-card {
+	flex: 0 0 320px;
+	max-width: 320px;
+	background-color: #ffffff;
+	border-radius: 4px;
+	border: 1px solid #8dd83d;
+	overflow: hidden;
+}
+.card-button {
+	display: block;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	background: #8dd83d;
+	color: #ffffff;
+}
+
+.xbox-card {
+	flex: 0 0 310px;
+	background: #ffffff;
+	border-radius: 4px;
+}
+.games-content {
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	flex-wrap: wrap;
+}
+.card-image {
+	height: 180px;
+	margin: 0 0 20px 0;
+}
+.card-image-1 {
+	background: url(../images/card-1.png) no-repeat center / cover;
+}
+.card-image-2 {
+	background: url(../images/card-image-02.jpg) no-repeat center / cover;
+}
+.card-image-3 {
+	background: url(../images/card-image-03.jpg) no-repeat center / cover;
+}
+.card-body {
+	padding: 22px;
+}
+.card-tittle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #435766;
+	margin: 0 0 11px 0;
+	padding: 0 0 0 20px;
+}
+.card-text {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 30px;
+	color: #435766;
+	margin: 0 0 36px 0;
+	padding: 0 0 0 20px;
+}
+
+.xbox-content {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.exclusive {
+	padding: 97px 0 145px 0;
+	background: url(../images/first.png) no-repeat center / cover;
+}
+.exclusive-image-1 {
+	background: url(../images/img-1.png) no-repeat center / cover;
+}
+.exclusive-image-2 {
+	background: url(../images/img-2.png) no-repeat center / cover;
+}
+.exclusive-image-3 {
+	background: url(../images/img-3.png) no-repeat center / cover;
+}
+.exclusive-image-4 {
+	background: url(../images/img-4.png) no-repeat center / cover;
+}
+.exclusive-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 58px auto 0 auto;
+	width: 207px;
+	height: 55px;
+	font-size: 21px;
+	line-height: 21px;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+	background: #373a3c;
+	transition: all 0.5s ease 0s;
+}
+.exclusive-link:hover {
+	background: #8dd83d;
+}
+.xbox-tittle {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 57px;
+	text-align: center;
+	color: #8dd83d;
+}
+.card-tittle {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #435766;
+}
+.card-text {
+	font-family: "Source Sans Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 23px;
+	color: #435766;
+}
+.card-link {
+	display: block;
+	text-decoration: none;
+	background: #8dd83d;
+	border-radius: 4px;
+	margin: 0 20px 20px 20px;
+	text-align: center;
+	padding: 20px;
+}
+
+.footer {
+	padding: 58px 0 0 0;
+	background: #373a37;
+}
+.footer-content {
+	display: flex;
+}
+.footer-block {
+	flex: 0 0 33.333%;
+	padding: 0 0 0 65px;
+}
+.footer-title {
+	margin: 0 0 34px 0;
+	font-size: 18px;
+	line-height: 21px;
+	color: #7dd42f;
+}
+.footer-link {
+	display: block;
+	margin: 0 0 28px 0;
+	font-size: 14px;
+	line-height: 16px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-social {
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+.footer-button {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 0 40px 0;
+	border-top: 1px solid #8dd83d;
+}
+.footer-text {
+	text-align: center;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+	padding: 0 20px;
+}
+
+.menu-icon {
+	flex: 0 0 35px;
+	width: 35px;
+	height: 35px;
+	background: url(../images/menu-01.svg) no-repeat center / cover;
+	position: relative;
+	z-index: 11;
+	display: none;
+}
+@media (max-width: 600px) {
+	.menu-icon {
+		display: block;
+	}
+	.menu {
+		position: fixed;
+		top: -100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: green;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 40px;
+		transition: all 0.5s ease 0s;
+	}
+	.menu-link {
+		margin: 0;
+		font-size: 40px;
+	}
+	.menu.active {
+		top: 0;
+	}
+}
+.screens {
+	margin: 85px 0 0 0;
+}
+.screens-content {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	margin: 0 0 85px 0;
+}
+.screens-title {
+	flex: 0 0 50%;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 45px;
+	color: #435766;
+
+	.screens-image {
+		flex: 0 0 50%;
+	}
+}
