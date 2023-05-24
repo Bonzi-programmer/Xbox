@@ -339,6 +339,7 @@
 }
 .footer-content {
 	display: flex;
+	flex-wrap: wrap;
 }
 .footer-block {
 	flex: 0 0 33.333%;
@@ -409,24 +410,27 @@
 	.menu.active {
 		top: 0;
 	}
-}
-.screens {
-	margin: 85px 0 0 0;
-}
-.screens-content {
-	display: flex;
-	justify-content: center;
-	gap: 50px;
-	margin: 0 0 85px 0;
-}
-.screens-title {
-	flex: 0 0 50%;
-	font-weight: 400;
-	font-size: 36px;
-	line-height: 45px;
-	color: #435766;
-
+	.screens {
+		margin: 85px 0 0 0;
+	}
+	.screens-content {
+		display: flex;
+		justify-content: center;
+		gap: 50px;
+		margin: 0 0 85px 0;
+	}
+	.screens-title {
+		flex: 0 0 50%;
+		font-weight: 400;
+		font-size: 36px;
+		line-height: 45px;
+		color: #435766;
+	}
 	.screens-image {
 		flex: 0 0 50%;
+	}
+	.hometittle {
+		font-size: 50px;
+		text-align: right;
 	}
 }
